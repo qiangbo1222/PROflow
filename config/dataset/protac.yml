@@ -1,0 +1,28 @@
+data_dir: /data/rsg/chemistry/boqiang/protac_test_data/proflow_temp
+cache_path: /data/rsg/chemistry/boqiang/protac_test_data/proflow_temp_cache
+server_cache: /data/rsg/chemistry/boqiang/protac_test_data/proflow_temp_cache
+msms_bin: /data/rsg/chemistry/boqiang/bin/msms
+linker_dict: dataset/linker_conf.pkl
+esm_embeddings_path: placeholder
+
+data_source: protac
+limit_complexes: 0
+all_atoms: false
+receptor_radius: 30
+c_alpha_max_neighbors: 10
+atom_radius: 5
+atom_max_neighbors: 10
+matching: false
+max_lig_size: 100
+remove_hs: true
+num_conformers: 1
+
+
+loader:
+  batch_size: 16
+  num_workers: 0
+  pin_memory: true
+  shuffle: true
+
+
+

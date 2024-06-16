@@ -1,0 +1,3 @@
+batch_size: 10
+inference_steps: 20
+sample_num: 4

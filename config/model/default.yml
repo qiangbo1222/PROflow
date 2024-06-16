@@ -1,0 +1,31 @@
+linker_dict: dataset/linker_conf.pkl
+
+embedding_type: sinusoidal
+sigma_embed_type: 32
+embedding_scale: 1000
+
+tor_weight: 1
+tr_weight: 1
+rot_weight: 5
+
+#6
+num_conv_layers: 6
+max_radius: 3.0
+scale_by_sigma: true
+#36
+ns: 24
+nv: 3
+distance_embed_dim: 32
+cross_distance_embed_dim: 32
+
+batch_norm: false
+use_second_order_repr: false
+cross_max_distance: 15.0
+dynamic_scale: true
+dynamic_max_cross: false
+dropout: 0.1
+
+embedding_type: sinusoidal
+sigma_embed_dim: 32
+
+confidence_mode: false
